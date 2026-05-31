@@ -1,0 +1,788 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-annotator",
+        "version": "1.0.0",
+        "title": "Annotator",
+        "description": "Annotator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n        .PublishControlButton--primary {\n            border-top-right-radius: 2px;\n            border-bottom-right-radius: 2px;\n        }\n\n        .annotation-publish-button__menu-wrapper {\n            display: none;\n        }\n\n        .AnnotationHeader__highlight {\n            display: none!important;\n        }\n        \n        .AnnotationShareInfo {\n            display: none!important;\n        }\n        \n        .AnnotationHeader__icon {\n            display: none!important;\n        }\n        \n        .TopBar__login-links {\n            display: none!important;\n        }\n        \n        body > hypothesis-app > div > div.TopBar > div > div.Menu {\n            display: none!important;\n        }\n        \n        body > hypothesis-app > div > div.TopBar > div > button {\n            display: none!important;\n        }",
+                    "target": "\n        .PublishControlButton--primary {\n            border-top-right-radius: 2px;\n            border-bottom-right-radius: 2px;\n        }\n\n        .annotation-publish-button__menu-wrapper {\n            display: none;\n        }\n\n        .AnnotationHeader__highlight {\n            display: none!important;\n        }\n        \n        .AnnotationShareInfo {\n            display: none!important;\n        }\n        \n        .AnnotationHeader__icon {\n            display: none!important;\n        }\n        \n        .TopBar__login-links {\n            display: none!important;\n        }\n        \n        body > hypothesis-app > div > div.TopBar > div > div.Menu {\n            display: none!important;\n        }\n        \n        body > hypothesis-app > div > div.TopBar > div > button {\n            display: none!important;\n        }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "pagination",
+                    "target": "pagination"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Pagination",
+                    "target": "Pagination"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "scroll",
+                    "target": "scroll"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Scroll",
+                    "target": "Scroll"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "failed to load annotations",
+                    "target": "failed to load annotations"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No video annotation website found. Make sure that you have provided a valid zip file in the annotator config.",
+                    "target": "No video annotation website found. Make sure that you have provided a valid zip file in the annotator config."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "file not found",
+                    "target": "file not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "unexpected end of input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed comment",
+                    "target": "Unclosed comment"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid doc source",
+                    "target": "invalid doc source"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "setting end offset to start container length failed",
+                    "target": "setting end offset to start container length failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "Couldn't convert value into a JSON string: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills",
+                    "target": "This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills",
+                    "target": "This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Request Body nor string or null: ",
+                    "target": "Request Body nor string or null: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Top Window got message",
+                    "target": "Top Window got message"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No startContainer found for",
+                    "target": "No startContainer found for"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Invalid annotation target!",
+                    "target": "Invalid annotation target!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "remove",
+                    "target": "remove"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "attri",
+                    "target": "attri"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "file opened",
+                    "target": "file opened"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to handle hypothesis drag-and-drop annotation event: ",
+                    "target": "Failed to handle hypothesis drag-and-drop annotation event: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to use annotation mode by default when opening a note with annotation-target",
+                    "target": "Whether to use annotation mode by default when opening a note with annotation-target"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to include the %%PREFIX%% region of the annotation markdown. Allows you to see some text before the highlighted region.",
+                    "target": "Whether to include the %%PREFIX%% region of the annotation markdown. Allows you to see some text before the highlighted region."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to include the %%POSTFIX%% region of the annotation markdown. Allows you to see some text after the highlighted region.",
+                    "target": "Whether to include the %%POSTFIX%% region of the annotation markdown. Allows you to see some text after the highlighted region."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to wrap the %%HIGHLIGHT%% region text in == ==, so that the text becomes highlighted. Useful for distinguishing the highlight from the pre- and postfix.",
+                    "target": "Whether to wrap the %%HIGHLIGHT%% region text in == ==, so that the text becomes highlighted. Useful for distinguishing the highlight from the pre- and postfix."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to use dark mode by default when opening pdfs/epubs.",
+                    "target": "Whether to use dark mode by default when opening pdfs/epubs."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of sepia in dark mode",
+                    "target": "The amount of sepia in dark mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of contrast in dark mode",
+                    "target": "The amount of contrast in dark mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of brightness in dark mode",
+                    "target": "The amount of brightness in dark mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Not bundled with the plugin due to potential copyright issues.",
+                    "target": "Not bundled with the plugin due to potential copyright issues."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If this is enabled, more things are printed to the console.",
+                    "target": "If this is enabled, more things are printed to the console."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Default Path",
+                    "target": "Custom Default Path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Epub reader mode",
+                    "target": "Epub reader mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Font Size",
+                    "target": "Font Size"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Annotation Mode By Default",
+                    "target": "Use Annotation Mode By Default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include Prefix",
+                    "target": "Include Prefix"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include Postfix",
+                    "target": "Include Postfix"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight highlighted text",
+                    "target": "Highlight highlighted text"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Dark Mode By Default",
+                    "target": "Use Dark Mode By Default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sepia",
+                    "target": "Sepia"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Contrast",
+                    "target": "Contrast"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Brightness",
+                    "target": "Brightness"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Annotate.tv resource URL",
+                    "target": "Annotate.tv resource URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Debug Logging",
+                    "target": "Enable Debug Logging"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open as Markdown",
+                    "target": "Open as Markdown"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Annotator Toggle Dark Mode",
+                    "target": "Annotator Toggle Dark Mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Annotate",
+                    "target": "Annotate"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mockFetch Failed, Error",
+                    "target": "mockFetch Failed, Error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing prop \"pdf\"",
+                    "target": "Missing prop \"pdf\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing prop \"epub\"",
+                    "target": "Missing prop \"epub\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Normalize cfiFromPercentage value to between 0 - 1",
+                    "target": "Normalize cfiFromPercentage value to between 0 - 1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "DarkReader",
+                    "target": "DarkReader"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "failed with error",
+                    "target": "failed with error"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Annotator: Could not fetch Annotate.TV resource zip",
+                    "target": "Annotator: Could not fetch Annotate.TV resource zip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Error",
+                    "target": "Error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Non Valid youtube Link!",
+                    "target": "Non Valid youtube Link!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Empty Response",
+                    "target": "Empty Response"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Forbidden",
+                    "target": "Forbidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "values",
+                    "target": "values"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "indexed",
+                    "target": "indexed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "dispose",
+                    "target": "dispose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "demethodize",
+                    "target": "demethodize"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "upsert",
+                    "target": "upsert"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "entries",
+                    "target": "entries"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "wrapper",
+                    "target": "wrapper"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "scope",
+                    "target": "scope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "actuate",
+                    "target": "actuate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arcrole",
+                    "target": "arcrole"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "href",
+                    "target": "href"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "role",
+                    "target": "role"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "show",
+                    "target": "show"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "type",
+                    "target": "type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "base",
+                    "target": "base"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lang",
+                    "target": "lang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "space",
+                    "target": "space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xmlns",
+                    "target": "xmlns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xlink",
+                    "target": "xlink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidian User",
+                    "target": "Obsidian User"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cover",
+                    "target": "cover"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "localforage",
+                    "target": "localforage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Annotation/Markdown Mode",
+                    "target": "Toggle Annotation/Markdown Mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Annotator Settings",
+                    "target": "Annotator Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Annotation Target Settings",
+                    "target": "Annotation Target Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Epub Reader Settings",
+                    "target": "Epub Reader Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Annotation Markdown Settings",
+                    "target": "Annotation Markdown Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dark Mode Settings",
+                    "target": "Dark Mode Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Annotate.TV settings",
+                    "target": "Annotate.TV settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Developer Settings",
+                    "target": "Developer Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "browser",
+                    "target": "browser"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"Request Body nor string or null: \",r.body)})();try{const a=yield e.requestUrl({url:\"string\"==typeof t?t:t.url,method:null==r?void 0:r.method,body:i,contentType:n.get(\"Content-Type\")",
+                    "target": "log(\"Request Body nor string or null: \",r.body)})();try{const a=yield e.requestUrl({url:\"string\"==typeof t?t:t.url,method:null==r?void 0:r.method,body:i,contentType:n.get(\"Content-Type\")"
+                },
+                {
+                    "source": "log(\"Top Window got message\",\"string\"==typeof e.data?e:Object.assign({event:e},e.data));const t=new Set;(()=>{const i=new Set([...o].map((e=>e.deref())).filter((e=>e)));if(i.has(e.source)&&e.source!=window){r.log(\"forwarding...\")",
+                    "target": "log(\"Top Window got message\",\"string\"==typeof e.data?e:Object.assign({event:e},e.data));const t=new Set;(()=>{const i=new Set([...o].map((e=>e.deref())).filter((e=>e)));if(i.has(e.source)&&e.source!=window){r.log(\"forwarding...\")"
+                },
+                {
+                    "source": "error(\"No video annotation website found. Make sure that you have provided a valid zip file in the annotator config.\")",
+                    "target": "error(\"No video annotation website found. Make sure that you have provided a valid zip file in the annotator config.\")"
+                },
+                {
+                    "source": "error(\"failed to load annotations\",{error:e})}if(l.startsWith(\"http://localhost:8001/api/annotations\")",
+                    "target": "error(\"failed to load annotations\",{error:e})}if(l.startsWith(\"http://localhost:8001/api/annotations\")"
+                },
+                {
+                    "source": "error(\"unexpected end of input\")",
+                    "target": "error(\"unexpected end of input\")"
+                },
+                {
+                    "source": "error(\"Unclosed comment\")",
+                    "target": "error(\"Unclosed comment\")"
+                },
+                {
+                    "source": "error(\"end tag name: \"+E+\" maybe not complete\")",
+                    "target": "error(\"end tag name: \"+E+\" maybe not complete\")"
+                },
+                {
+                    "source": "error(\"invalid doc source\")",
+                    "target": "error(\"invalid doc source\")"
+                },
+                {
+                    "source": "setName(\"Custom Default Path\")",
+                    "target": "setName(\"Custom Default Path\")"
+                },
+                {
+                    "source": "setName(\"Epub reader mode\")",
+                    "target": "setName(\"Epub reader mode\")"
+                },
+                {
+                    "source": "setName(\"Font Size\")",
+                    "target": "setName(\"Font Size\")"
+                },
+                {
+                    "source": "setDesc(`Base font size in percents. Current: ${this.plugin.settings.epubSettings.fontSize}%`)",
+                    "target": "setDesc(`Base font size in percents. Current: ${this.plugin.settings.epubSettings.fontSize}%`)"
+                },
+                {
+                    "source": "setName(\"Use Annotation Mode By Default\")",
+                    "target": "setName(\"Use Annotation Mode By Default\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to use annotation mode by default when opening a note with annotation-target\")",
+                    "target": "setDesc(\"Whether to use annotation mode by default when opening a note with annotation-target\")"
+                },
+                {
+                    "source": "setName(\"Include Prefix\")",
+                    "target": "setName(\"Include Prefix\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to include the %%PREFIX%% region of the annotation markdown. Allows you to see some text before the highlighted region.\")",
+                    "target": "setDesc(\"Whether to include the %%PREFIX%% region of the annotation markdown. Allows you to see some text before the highlighted region.\")"
+                },
+                {
+                    "source": "setName(\"Include Postfix\")",
+                    "target": "setName(\"Include Postfix\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to include the %%POSTFIX%% region of the annotation markdown. Allows you to see some text after the highlighted region.\")",
+                    "target": "setDesc(\"Whether to include the %%POSTFIX%% region of the annotation markdown. Allows you to see some text after the highlighted region.\")"
+                },
+                {
+                    "source": "setName(\"Highlight highlighted text\")",
+                    "target": "setName(\"Highlight highlighted text\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to wrap the %%HIGHLIGHT%% region text in == ==, so that the text becomes highlighted. Useful for distinguishing the highlight from the pre- and postfix.\")",
+                    "target": "setDesc(\"Whether to wrap the %%HIGHLIGHT%% region text in == ==, so that the text becomes highlighted. Useful for distinguishing the highlight from the pre- and postfix.\")"
+                },
+                {
+                    "source": "setName(\"Use Dark Mode By Default\")",
+                    "target": "setName(\"Use Dark Mode By Default\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to use dark mode by default when opening pdfs/epubs.\")",
+                    "target": "setDesc(\"Whether to use dark mode by default when opening pdfs/epubs.\")"
+                },
+                {
+                    "source": "setDesc(\"The amount of sepia in dark mode\")",
+                    "target": "setDesc(\"The amount of sepia in dark mode\")"
+                },
+                {
+                    "source": "setDesc(\"The amount of contrast in dark mode\")",
+                    "target": "setDesc(\"The amount of contrast in dark mode\")"
+                },
+                {
+                    "source": "setDesc(\"The amount of brightness in dark mode\")",
+                    "target": "setDesc(\"The amount of brightness in dark mode\")"
+                },
+                {
+                    "source": "setName(\"Annotate.tv resource URL\")",
+                    "target": "setName(\"Annotate.tv resource URL\")"
+                },
+                {
+                    "source": "setDesc(\"Not bundled with the plugin due to potential copyright issues.\")",
+                    "target": "setDesc(\"Not bundled with the plugin due to potential copyright issues.\")"
+                },
+                {
+                    "source": "setName(\"Enable Debug Logging\")",
+                    "target": "setName(\"Enable Debug Logging\")"
+                },
+                {
+                    "source": "setDesc(\"If this is enabled, more things are printed to the console.\")",
+                    "target": "setDesc(\"If this is enabled, more things are printed to the console.\")"
+                },
+                {
+                    "source": "error(\"This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills\")",
+                    "target": "error(\"This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills\")"
+                },
+                {
+                    "source": "error(\"This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills\")",
+                    "target": "error(\"This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills\")"
+                },
+                {
+                    "source": "log(\"Invalid annotation target!\")",
+                    "target": "log(\"Invalid annotation target!\")"
+                },
+                {
+                    "source": "setTitle(\"Open as Markdown\")",
+                    "target": "setTitle(\"Open as Markdown\")"
+                },
+                {
+                    "source": "setTitle(\"Annotator Toggle Dark Mode\")",
+                    "target": "setTitle(\"Annotator Toggle Dark Mode\")"
+                },
+                {
+                    "source": "Notice(\"Annotator: Could not fetch Annotate.TV resource zip\")",
+                    "target": "Notice(\"Annotator: Could not fetch Annotate.TV resource zip\")"
+                },
+                {
+                    "source": "log(\"file opened\")",
+                    "target": "log(\"file opened\")"
+                },
+                {
+                    "source": "name:\"Obsidian User\"",
+                    "target": "name:\"Obsidian User\""
+                },
+                {
+                    "source": "text:\"input:is(:not([type!='']), [type=text])\"",
+                    "target": "text:\"input:is(:not([type!='']), [type=text])\""
+                },
+                {
+                    "source": "name: \"+E+\"",
+                    "target": "name: \"+E+\""
+                },
+                {
+                    "source": "textContent=\" \"",
+                    "target": "textContent=\" \""
+                },
+                {
+                    "source": "text:\"Annotator Settings\"",
+                    "target": "text:\"Annotator Settings\""
+                },
+                {
+                    "source": "text:\"Annotation Target Settings\"",
+                    "target": "text:\"Annotation Target Settings\""
+                },
+                {
+                    "source": "text:\"Epub Reader Settings\"",
+                    "target": "text:\"Epub Reader Settings\""
+                },
+                {
+                    "source": "text:\"Annotation Markdown Settings\"",
+                    "target": "text:\"Annotation Markdown Settings\""
+                },
+                {
+                    "source": "text:\"Dark Mode Settings\"",
+                    "target": "text:\"Dark Mode Settings\""
+                },
+                {
+                    "source": "text:\"Annotate.TV settings\"",
+                    "target": "text:\"Annotate.TV settings\""
+                },
+                {
+                    "source": "text:\"Developer Settings\"",
+                    "target": "text:\"Developer Settings\""
+                },
+                {
+                    "source": "name:\"Toggle Annotation/Markdown Mode\"",
+                    "target": "name:\"Toggle Annotation/Markdown Mode\""
+                }
+            ]
+        }
+    }
+}
